@@ -1,163 +1,492 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html class="no-js" lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Foundation</title>
-    <link rel="stylesheet" href="stylesheets/app.css" />
-    <script src="bower_components/modernizr/modernizr.js"></script>
-  </head>
-  <body>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+	<title>Expat Coder &equiv; Brian Lyttle</title>
+
+	<link href="stylesheets/app.css" rel="stylesheet">
+	<script src="bower_components/modernizr/modernizr.js"></script>
+
+	<link rel="shortcut icon" href="/images/favicon.ico">
+	
+	<meta property="og:url" content="http://www.brianlyttle.com/" />
+	<meta property="og:title" content="Title Here" />
+	<meta property="og:type" content="article" />
+	<meta property="og:site_name" content="Expat Coder &equiv; Brian Lyttle" />
+	<meta property="og:image" content="http://www.brianlyttle.com/images/bl2011_bw_225x150.jpg" />
+	
+	<link rel="openid2.provider" href="https://www.google.com/accounts/o8/ud" />
+</head>
+<body id="page" class="antialiased">
     <div class="row">
-      <div class="large-12 columns">
-        <h1>Welcome to Foundation</h1>
-      </div>
-    </div>
+		<div class="large-12 columns">
+        	<div class="logo">
+        		<p><a href="/"><img src="/v2014/images/logo05c.png" width="60" height="60" />Expat Coder</a><p>
+        	</div>
+    	</div>
+	</div>
+    <div class="row">
+        <div class="large-12 columns">
+            <nav class="top-bar" data-topbar="">
+		      <ul class='title-area'>
+		        <li class='name'>
+		          <h1>
+		            <a href='/'>Home</a>
+		          </h1>
+		        </li>
+		        <li class='toggle-topbar menu-icon' >
+		          <a href='#'>
+		            <span>Menu</span>
+		          </a>
+		        </li>
+		      </ul>
+                <section class="top-bar-section">
+                    <!-- Left Nav Section -->
+                    <ul class="left">
+                        <li class="has-dropdown">
+                            <a href="/photography/">Photography</a>
+                            <ul class="dropdown">
+                                <li><label>2013</label></li>
+                                <li><a href=
+                                "http://www.flickr.com/photos/brianly/sets/72157638026683406/">
+                                Spain &amp; Morocco</a></li>
+                                <li><a href=
+                                "http://www.flickr.com/photos/brianly/sets/72157633069656111/">
+                                PyCon 2013</a></li>
+
+                                <li><label>2012</label></li>
+                                <li><a href=
+                                "http://www.flickr.com/photos/brianly/sets/72157631865804889/">
+                                Hacktoberfest</a></li>
+                                <li><a href=
+                                "http://www.flickr.com/photos/brianly/sets/72157629897305524/">
+                                Machu Picchu</a></li>
+                                <li><a href=
+                                "http://www.flickr.com/photos/brianly/sets/72157629549361847/">
+                                PyCon 2012</a></li>
+
+                                <li><label>2011</label></li>
+                                <li><a href=
+                                "http://www.flickr.com/photos/brianly/sets/72157627724689431/">
+                                Helicoptering</a></li>
+                                
+								<li class="divider"></li>
+                                <li><a href=
+                                "http://www.flickr.com/photos/brianly">See all →</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/about/">About</a></li>
+                        <li><a href="/contact/">Contact</a></li>
+                    </ul>
+                    <!-- Right Nav Section -->
+                    <ul class="right">
+                        <li class="has-dropdown">
+                            <a href="#">Follow Me</a>
+                            <ul class="dropdown">
+                                <li><a href="http://www.twitter.com/brianly"><i class="fi-social-twitter"></i> Twitter</a></li>
+                                <li><a href="http://github.com/brianly"><i class="fi-social-github"></i> GitHub</a></li>
+                                <li><a href="http://www.brianlyttle.com/feed/"><i class="fi-rss"></i> RSS Feed</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+            </nav>
+
+            <div class="row">
+                <div class="large-9 medium-9 columns">
+                    <div class="row">
+                        <div class="large-12 columns">
+                            <div class="row">
+                                <div class="twelve columns">
+
+	                              <article>
+                              
+	                                <h1><a href=
+	                                "/2013/07/signin-with-yammer-aspnetmvc/">Building Mobile Web Apps with jQM and Cordova on Azure</a></h1>
+
+	                                <div class="metadata"><time datetime="2013-07-25" pubdate="">July 25, 2013</time></div>
+      
+
+                                        <p>One of the biggest pain points with
+                                        enterprise web ap­pli­ca­tions is user
+                                        engagement stemming from another logon
+                                        to remember, and mountain of profile
+                                        fields to complete. For­tu­nate­ly
+                                        there are ways to improve this
+                                        experience.</p>
+                                        
+                                        <i class="step fi-address-book size-72"></i>
+
+                                        <p><img alt=
+                                        "Sign-in with Yammer button." class=
+                                        "img-right" height="204px" src=
+                                        "/images/sched-do-signin.png" width=
+                                        "240px"></p>
+
+                                        <p>Depending on the situation you might
+                                        be able to take advantage of Integrated
+                                        Windows Au­then­ti­ca­tion with access
+                                        to Active Directory profiles, or have
+                                        another identity service deployed. In
+                                        my experience these can have a range of
+                                        lim­i­ta­tions including poor data
+                                        quality, and a heavy­weight
+                                        pro­gram­ming model.</p>
+                                        
+                                        <h2>Here is a video below an h2</h2>
+										<div class="flex-video widescreen vimeo">
+										  <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+										</div>
+										
+										<h3>Here is a video below an h3</h3>
+                                        <p>It would be nice to be able to
+                                        implement something along the lines of
+                                        <a href=
+                                        "https://www.facebook.com/about/login/">
+                                        Facebook Login</a>. ASP.NET MVC 4.0
+                                        provides <a href=
+                                        "http://msdn.microsoft.com/en-us/magazine/dn198238.aspx">
+                                        great support</a> for social
+                                        au­then­ti­ca­tion providers, but out
+                                        of the box it doesn’t provide support
+                                        for any enterprise social networks.
+                                        These building blocks are, however, an
+                                        excellent foundation for
+                                        im­ple­ment­ing support for a <a href=
+                                        "https://www.yammer.com">Yammer</a>
+                                        provider.</p>
+
+                                        <p>Yammer is an <a href=
+                                        "http://en.wikipedia.org/wiki/Enterprise_social_networking">
+                                        enterprise social network</a> (ESN) and
+                                        at the core of the func­tion­al­i­ty is
+                                        a user profile for each user within
+                                        your or­ga­ni­za­tion. These profiles
+                                        are controlled by users, and often have
+                                        content that is more up-to-date than
+                                        internal di­rec­to­ries. In many cases
+                                        customers are also using <a href=
+                                        "http://success.yammer.com/integrations/directory-sync/">
+                                        Directory Sync</a> to update profile
+                                        fields.</p>
+
+                                        <p>I took some time to implement an
+                                        OAuth 2.0 client which is compatible
+                                        with Yammer, and I'm sharing the
+                                        details below. This can be used in
+                                        ASP.NET MVC sites, but it is something
+                                        that you could modify to work with
+                                        other types of .NET ap­pli­ca­tions.
+                                        There are however <a href=
+                                        "https://developer.yammer.com/mobile/">better
+                                        choices for Windows Phone</a> where an
+                                        SDK is available.</p>
+
+                                        <ul class="example-orbit" data-orbit="">
+                                            <li>
+                                                <img alt="slide 1" src=
+                                                "http://farm4.staticflickr.com/3692/11043827425_465bdb9865_b.jpg">
+
+                                                <div class="orbit-caption">
+                                                    Caption One.
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <img alt="slide 2" src=
+                                                "http://farm4.staticflickr.com/3692/11043827425_465bdb9865_b.jpg">
+
+                                                <div class="orbit-caption">
+                                                    Caption Two.
+                                                </div>
+                                            </li>
+
+                                            <li>
+                                                <img alt="slide 3" src=
+                                                "http://farm4.staticflickr.com/3692/11043827425_465bdb9865_b.jpg">
+
+                                                <div class="orbit-caption">
+                                                    Caption Three.
+                                                </div>
+                                            </li>
+                                        </ul>
+
+                                        <h3>Im­ple­ment­ing the client</h3>
+
+                                        <p>As ASP.NET MVC builds on
+                                        func­tion­al­i­ty from
+                                        Dot­Ne­tOpe­nAuth the focus is on
+                                        extending
+                                        <strong>OAuth2Client</strong> as
+                                        Yam­mer­Client. The <a href=
+                                        "https://gist.github.com/brianly/5670410">
+                                        complete im­ple­men­ta­tion</a> is
+                                        available online, but the methods you
+                                        need to implement are:</p>
+
+                                        <ol>
+                                            <li>
+                                            <strong>GetServiceLogin­Url()</strong>
+                                            which is re­spon­si­ble for
+                                            preparing the URL to redirect the
+                                            user so that they can authorize
+                                            your ap­­pli­­ca­­tion.</li>
+
+                                            <li>
+                                            <strong>Query­Ac­cessTo­ken()</strong>
+                                            which executes a callback to Yammer
+                                            in exchange for an OAuth access
+                                            token.</li>
+
+                                            <li>
+                                            <strong>Ge­­tUser­­Da­­ta()</strong>
+                                            which is re­spon­si­ble for
+                                            querying profile data.</li>
+                                        </ol>
+
+                                        <p>Something worth noting is that if
+                                        you want to be able to make Yammer API
+                                        calls, or silently check for profile
+                                        updates, then you may need to modify
+                                        Ge­tUser­Da­ta() to persist the
+                                        token.</p>
+
+                                        <h3>Using the client</h3>
+
+                                        <p>Using the client in a new <a href=
+                                        "http://www.asp.net/mvc/tutorials/mvc-4/getting-started-with-aspnet-mvc4/intro-to-aspnet-mvc-4">
+                                        ASP.NET MVC Internet Ap­pli­ca­tion
+                                        project</a> is straight­for­ward.
+                                        Before going any further there are some
+                                        steps you need to take to register an
+                                        ap­pli­ca­tion on the Yammer site.
+                                        These steps can be completed through
+                                        the <a href=
+                                        "https://www.yammer.com/client_applications">
+                                        registered ap­pli­ca­tions</a> page,
+                                        and <a href=
+                                        "http://developer.yammer.com/introduction/">
+                                        detailed in­struc­tions</a> are
+                                        provided on the developer site.</p>
+
+                                        <pre><code>
+#import "AuthViewController.h"
+#import "DataController.h"
+#import "LoginController.h"
+#import "LoginViewController.h"
+
+@interface AuthViewController ()
+
+@end
+
+@implementation AuthViewController
+
+// Do any additional setup after loading the view. 
+- (void)viewDidLoad
+{
+    [super viewDidLoad];
     
-    <div class="row">
-      <div class="large-12 columns">
-        <div class="panel">
-          <h3>We&rsquo;re stoked you want to try Foundation! </h3>
-          <p>To get going, this file (index.html) includes some basic styles you can modify, play around with, or totally destroy to get going.</p>
-          <p>Once you've exhausted the fun in this document, you should check out:</p>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-          <p><a href="http://foundation.zurb.com/docs">Foundation Documentation</a><br />Everything you need to know about using the framework.</p>
-        </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://github.com/zurb/foundation">Foundation on Github</a><br />Latest code, issue reports, feature requests and more.</p>
-            </div>
-            <div class="large-4 medium-4 columns">
-              <p><a href="http://twitter.com/foundationzurb">@foundationzurb</a><br />Ping us on Twitter if you have questions. If you build something with this we'd love to see it (and send you a totally boss sticker).</p>
-            </div>        
-          </div>
-        </div>
-      </div>
-    </div>
+    // Get a login Controller that you will use later for logging user in with Yammer OAuth
+    self.yamLoginController = [LoginController sharedController];
+}
 
-    <div class="row">
-      <div class="large-8 medium-8 columns">
-        <h5>Here&rsquo;s your basic grid:</h5>
-        <!-- Grid Example -->
+// Establish connection with Yammer using Oauth.
+- (IBAction)establishConnection:(id)sender
+{
+    // Segue to the Login View Controller to initiate the login in a web view
+    [self performSegueWithIdentifier:@"ShowLoginView" sender:self];
+    
+}
 
-        <div class="row">
-          <div class="large-12 columns">
-            <div class="callout panel">
-              <p><strong>This is a twelve column section in a row.</strong> Each of these includes a div.panel element so you can see where the columns are - it's not required at all for the grid.</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-          <div class="large-6 medium-6 columns">
-            <div class="callout panel">
-              <p>Six columns</p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-          <div class="large-4 medium-4 small-4 columns">
-            <div class="callout panel">
-              <p>Four columns</p>
-            </div>
-          </div>
-        </div>
-        
-        <hr />
-                
-        <h5>We bet you&rsquo;ll need a form somewhere:</h5>
-        <form>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-12.columns" />
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <label>Input Label</label>
-              <input type="text" placeholder="large-4.columns" />
-            </div>
-            <div class="large-4 medium-4 columns">
-              <div class="row collapse">
-                <label>Input Label</label>
-                <div class="small-9 columns">
-                  <input type="text" placeholder="small-9.columns" />
+// Prepare to Segue to the Login View Controller to initiate the login in a web view.
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([[segue identifier] isEqualToString:@"ShowLoginView"]) {
+        LoginViewController *loginViewController = [segue destinationViewController];
+        loginViewController.loginInitURL = self.yamLoginController.getLoginServiceInitiationURL;
+    }
+}
+
+/////////////////////////////////////  Unused methods, for future use  /////////////////////////////////////
+
+- (void)didReceiveMemoryWarning
+{
+    [super didReceiveMemoryWarning];
+    // Dispose of any resources that can be recreated.
+}
+
+@end</code>
+</pre>
+
+
+
+
+
+                                        <p>It is very important that you set a
+                                        Redirect URI for your Yammer
+                                        ap­pli­ca­tion. The format will be
+                                        along the lines of
+                                        http://localhost:31074/ for your
+                                        de­vel­op­ment site in Visual Studio
+                                        (adjust the port!), but you'll need to
+                                        change it to something like
+                                        https://www.myapp.com/authorize for
+                                        production.</p>
+
+                                        <p>Back in Visual Studio you simply
+                                        need to in­stan­ti­ate an instance of
+                                        the Yam­mer­Client class, and register
+                                        it in AuthConfig.cs:</p>
+                                        <pre><code>
+public static void RegisterAuth()
+{
+    const string appId = "";
+    const string appSecret = "";
+
+    var client = new YammerClient(appId, appSecret);
+
+    OAuthWebSecurity.RegisterClient(client, "Yammer", null);
+}</code>
+</pre>
+
+                                        <p>When your application is launched
+                                        it'll offer the ability to sign in with
+                                        Yammer and any other OAuth
+                                        authentication clients that you have
+                                        registered. It really is very
+                                        slick!</p>
+
+                                        <p>A good next step is to modify your
+                                        controllers and views to take advantage
+                                        of the profile information beyond basic
+                                        profile fields. That seems like good
+                                        fodder for a future blog post.</p>
+                                    </div>
+                                </div>
+
+                                <p>Tagged with <a href=
+                                "/tag/yammer/">yammer</a>, <a href=
+                                "/tag/oauth/">oauth</a>, <a href=
+                                "/tag/rest/">rest</a>, <a href=
+                                "/tag/authentication/">authentication</a> and
+                                <a href="/tag/security/">security</a>.</p>
+                            </article>
+                        </div>
+                    </div>
                 </div>
-                <div class="small-3 columns">
-                  <span class="postfix">.com</span>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Select Box</label>
-              <select>
-                <option value="husker">Husker</option>
-                <option value="starbuck">Starbuck</option>
-                <option value="hotdog">Hot Dog</option>
-                <option value="apollo">Apollo</option>
-              </select>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-6 medium-6 columns">
-              <label>Choose Your Favorite</label>
-              <input type="radio" name="pokemon" value="Red" id="pokemonRed"><label for="pokemonRed">Radio 1</label>
-              <input type="radio" name="pokemon" value="Blue" id="pokemonBlue"><label for="pokemonBlue">Radio 2</label>
-            </div>
-            <div class="large-6 medium-6 columns">
-              <label>Check these out</label>
-              <input id="checkbox1" type="checkbox"><label for="checkbox1">Checkbox 1</label>
-              <input id="checkbox2" type="checkbox"><label for="checkbox2">Checkbox 2</label>
-            </div>
-          </div>
-          <div class="row">
-            <div class="large-12 columns">
-              <label>Textarea Label</label>
-              <textarea placeholder="small-12.columns"></textarea>
-            </div>
-          </div>
-        </form>
-      </div>     
 
-      <div class="large-4 medium-4 columns">
-        <h5>Try one of these buttons:</h5>
-        <p><a href="#" class="small button">Simple Button</a><br/>
-        <a href="#" class="small radius button">Radius Button</a><br/>
-        <a href="#" class="small round button">Round Button</a><br/>            
-        <a href="#" class="medium success button">Success Btn</a><br/>
-        <a href="#" class="medium alert button">Alert Btn</a><br/>
-        <a href="#" class="medium secondary button">Secondary Btn</a></p>           
-        <div class="panel">
-          <h5>So many components, girl!</h5>
-          <p>A whole kitchen sink of goodies comes with Foundation. Checkout the docs to see them all, along with details on making them your own.</p>
-          <a href="http://foundation.zurb.com/docs/" class="small button">Go to Foundation Docs</a>          
+                <div class="large-3 medium-3 columns"> <!-- Right column -->
+                    <!-- Sidebar -->
+                    <aside id="sidebar">
+                        <div class="panel recent-posts">
+                            <h5>Recent Posts</h5>
+
+                            <ul>
+                                <li><a href=
+                                "/2013/10/sharepoint-intersection-2013-talk/">SharePoint
+                                Intersection 2013 Talk</a></li>
+
+                                <li><a href=
+                                "/2013/07/signin-with-yammer-aspnetmvc/">Adding
+                                "Sign-in with Yammer" to ASP.NET MVC
+                                apps</a></li>
+
+                                <li><a href=
+                                "/2013/04/debugging-problems-with-ie-zones/">Debugging
+                                problems with IE Security Zones</a></li>
+
+                                <li><a href=
+                                "/2012/09/speeding-up-archive-operations-on-os-x-and-linux/">
+                                Speeding up archive operations on OS X and
+                                Linux</a></li>
+
+                                <li><a href=
+                                "/2012/05/building-mobile-web-apps-with-jqm-and-cordova-on-azure/">
+                                Building Mobile Web Apps with jQM and Cordova
+                                on Azure</a></li>
+
+                                <li><a href=
+                                "/2012/02/redsnakephilly-2012/">RedSnakePhilly
+                                2012</a></li>
+
+                                <li><a href=
+                                "/2011/10/python-interpreter-tab-completion-on-os-x/">
+                                Python interpreter tab completion on OS
+                                X</a></li>
+                            </ul>
+                            
+							<div class="flex-video widescreen vimeo">
+							  <iframe src="http://player.vimeo.com/video/60122989" width="400" height="225" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+							</div>                            
+                        </div>
+
+                        <div class="panel links show-for-medium-up">
+                            <h5>Links</h5>
+
+                            <ul>
+                                <li><a href="http://www.devlogged.com/">Dev
+                                Logged</a></li>
+                                
+                                <li><a href=
+                                "http://www.mediatonic.co.uk/">Mediatonic</a></li>
+                                
+                                <li><a href=
+                                "http://www.graphitedigital.com/">Graphite
+                                Digital</a></li>
+
+                                <li><a href=
+                                "http://www.sensacom.com/">Sensacom</a></li>
+
+                                <li><a href="http://www.itadmintools.com/">IT
+                                Admin Tools</a></li>
+
+                                <li><a href="http://www.tedwise.com/">Ted
+                                Wise</a></li>
+
+                                <li><a href=
+                                "http://www.mukalian.com/blog/">Mike
+                                Mukalian</a></li>
+
+                                <li><a href=
+                                "http://www.sensagroup.com/">SensaGroup</a></li>
+                            </ul>
+                        </div>
+                        <div class="show-for-medium-up">
+	                        <a href="http://www.python.org/"><img alt=
+	                        "Python-powered logo." src=
+	                        "http://cdn.brianlyttle.com/images/python-powered-w-140x56.png" class="banner" width="140" height="56"></a>
+                        </div>
+                    </aside>
+                    <!-- End sidebar -->
+                </div> <!-- End right column -->
+            </div>
+
+			<!-- Footer -->
+			<footer class="row">
+				<div class="twelve columns">
+					<hr />
+					<div class="row">
+						<div class="six columns">
+							<ul class="show-for-medium-up">
+								<li><a href="http://twitter.com/brianly"><i class="fi-social-twitter"></i> Twitter</a></li>
+								<li><a href="http://github.com/brianly"><i class="fi-social-github"></i> GitHub</a></li>
+								<li><a href="https://www.linkedin.com/in/brianlyttle/"><i class="fi-social-linkedin"></i> LinkedIn</a></li>
+								<li><a href="http://stackoverflow.com/users/636/brian-lyttle"><i class="fi-social-stack-overflow"></i> StackOverflow</a></li>
+								<li><a href="http://flickr.com/photos/brianly"><i class="fi-social-flickr"></i> Flickr</a></li>
+							</ul>
+							<p class="copyright">&copy; 1999&ndash;2014 Brian Lyttle</p>
+						</div>
+					</div>
+				</div>
+			</footer>            
+            <!-- End Sidebar -->
         </div>
-      </div>
     </div>
-
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/foundation/js/foundation.min.js"></script>
     <script src="js/app.js"></script>
-  </body>
+</body>
 </html>
